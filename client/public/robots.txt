@@ -1,0 +1,21 @@
+# Robots.txt for Isabella Café
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Disallow: 
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://isabella-cafe.manus.space/sitemap.xml
+
+# Comment: This website is for Isabella Café in Gzira, Malta
+# Last updated: 2026-04-03
