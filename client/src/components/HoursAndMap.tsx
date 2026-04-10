@@ -4,7 +4,7 @@ export default function HoursAndMap() {
     { day: 'Tuesday', time: '7:00 AM – 8:00 PM' },
     { day: 'Wednesday', time: '7:00 AM – 8:00 PM' },
     { day: 'Thursday', time: '7:00 AM – 8:00 PM' },
-    { day: 'Friday', time: '8:00 AM – 8:00 PM' },
+    { day: 'Friday', time: '7:00 AM – 8:00 PM' },
     { day: 'Saturday', time: '7:30 AM – 7:00 PM' },
     { day: 'Sunday', time: '8:00 AM – 7:00 PM' },
   ];
@@ -55,10 +55,10 @@ export default function HoursAndMap() {
               <div>
                 <p className="text-sm text-muted-foreground mb-1">Email</p>
                 <a
-                  href="mailto:reservations@isabellasuites.com"
+                  href="mailto:leonid.avramoski@isabellasuites.com"
                   className="text-lg font-semibold hover:text-accent transition-colors"
                 >
-                  reservations@isabellasuites.com
+                  leonid.avramoski@isabellasuites.com
                 </a>
               </div>
 
