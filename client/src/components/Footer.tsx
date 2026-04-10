@@ -30,10 +30,10 @@ export default function Footer() {
               </p>
               <p>
                 <a
-                  href="mailto:reservations@isabellasuites.com"
+                  href="mailto:leonid.avramoski@isabellasuites.com"
                   className="hover:opacity-80 transition-opacity"
                 >
-                  reservations@<br />isabellasuites.com
+                  leonid.avramoski@<br />isabellasuites.com
                 </a>
               </p>
             </div>
@@ -44,7 +44,7 @@ export default function Footer() {
             <h4 className="font-semibold text-sm uppercase tracking-widest mb-4">Hours</h4>
             <div className="space-y-1 text-sm">
               <p>Mon–Thu: 7am–8pm</p>
-              <p>Fri: 8am–8pm</p>
+              <p>Fri: 7am–8pm</p>
               <p>Sat: 7:30am–7pm</p>
               <p>Sun: 8am–7pm</p>
             </div>
