@@ -26,7 +26,7 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl leading-tight" style={{ fontFamily: '"Keira Serif", serif', fontWeight: '700', letterSpacing: '0.08em', fontSize: 'clamp(3rem, 10vw, 8rem)', textShadow: '0 2px 10px rgba(0,0,0,0.3)' }}>
-          Isabella Café
+          ISABELLA Café
         </h1>
 
         <p className="text-lg md:text-xl max-w-2xl leading-relaxed font-light">
