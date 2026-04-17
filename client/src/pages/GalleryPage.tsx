@@ -88,7 +88,7 @@ const galleryPhotos = [
   {
     url: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663386683224/kQFAwuRRcaJqR5bCtnF7Ps/DSC_7208_ Joel Gueller Photography_fa3837ca.jpg',
     alt: 'Café Ambiance & Lighting'
-  }
+  },
   {
     url: '/DSC_6966_JoelGuellerPhotography.jpg',
     alt: ''
