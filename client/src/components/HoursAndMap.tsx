@@ -47,7 +47,7 @@ export default function HoursAndMap() {
                 <p className="text-sm text-muted-foreground mb-1">Address</p>
                 <p className="text-lg font-semibold">
                   Triq Gerry Zammit<br />
-                  Għira (Gzira) GZR 1663<br />
+                  Gżira (Gżira) GZR 1663<br />
                   Malta
                 </p>
               </div>
