@@ -14,10 +14,6 @@ const galleryPhotos = [
     alt: 'Café Interior Ambiance'
   },
   {
-    url: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663386683224/kQFAwuRRcaJqR5bCtnF7Ps/DSC_6851_ Joel Gueller Photography_90aa189c.jpg',
-    alt: 'Coffee & Beverage Detail'
-  },
-  {
     url: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663386683224/kQFAwuRRcaJqR5bCtnF7Ps/DSC_6853_ Joel Gueller Photography_5392f767.jpg',
     alt: 'Food Presentation'
   },
