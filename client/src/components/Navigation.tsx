@@ -55,7 +55,7 @@ export default function Navigation() {
             <img 
               src="https://d2xsxph8kpxj0f.cloudfront.net/310519663386683224/kQFAwuRRcaJqR5bCtnF7Ps/Screenshot_20260402_233734_Google_ed85e0c1.jpg" 
               alt="Isabella Café Logo" 
-              className="h-12 md:h-14 w-auto"
+              className="h-16 md:h-20 w-auto"
               />
             </a>
           </div>
