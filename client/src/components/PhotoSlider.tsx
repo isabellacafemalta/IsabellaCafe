@@ -87,10 +87,6 @@ const photos = [
     url: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663386683224/kQFAwuRRcaJqR5bCtnF7Ps/DSC_7208_ Joel Gueller Photography_fa3837ca.jpg',
     alt: 'Café Ambiance & Lighting'
   },
-  {
-    url: 'https://wetransfer.com/previews/865e8566683c5e015b381cf927bade3220260205135257/3b0fd4?itemId=b4bf1bdc345628dc3098b34ca6c262cf20260205135619
-    alt: 'Café Ambiance & Lighting'
-  },
 ];
 
 export default function PhotoSlider() {
