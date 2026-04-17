@@ -90,39 +90,39 @@ const galleryPhotos = [
     alt: 'Café Ambiance & Lighting'
   }
   {
-    url: "/DSC_6966_ Joel Gueller Photography.jpg",
+    url: "/DSC_6966_JoelGuellerPhotography.jpg",
     alt: ""
   },
   {
-   url: "/DSC_6977_ Joel Gueller Photography.jpg",
+   url: "/DSC_6977_JoelGuellerPhotography.jpg",
    alt: "" 
   },
   {
-    url: "/DSC_7020_ Joel Gueller Photography.jpg",
+    url: "/DSC_7020_JoelGuellerPhotography.jpg",
     alt: ""
   },
   {
-    url: "/DSC_7029_ Joel Gueller Photography.jpg",
+    url: "/DSC_7029_JoelGuellerPhotography.jpg",
     alt: ""
   },
   {
-    url: "/DSC_7064_ Joel Gueller Photography.jpg",
+    url: "/DSC_7064_JoelGuellerPhotography.jpg",
     alt: ""
   },
   {
-    url: "/DSC_7094_ Joel Gueller Photography.jpg",
+    url: "/DSC_7094_JoelGuellerPhotography.jpg",
     alt: ""
   },
   {
-    url: "/DSC_7100_ Joel Gueller Photography.jpg",
+    url: "/DSC_7100_JoelGuellerPhotography.jpg",
     alt: ""
   },
   {
-    url: "/DSC_7109_ Joel Gueller Photography.jpg",
+    url: "/DSC_7109_JoelGuellerPhotography.jpg",
     alt: ""
   },
   {
-    url: "/DSC_7110_ Joel Gueller Photography.jpg",
+    url: "/DSC_7110_JoelGuellerPhotography.jpg",
     alt: ""
   },
 ];
