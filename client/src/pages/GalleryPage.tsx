@@ -89,6 +89,42 @@ const galleryPhotos = [
     url: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663386683224/kQFAwuRRcaJqR5bCtnF7Ps/DSC_7208_ Joel Gueller Photography_fa3837ca.jpg',
     alt: 'Café Ambiance & Lighting'
   }
+  {
+    url: "DSC_6966_ Joel Gueller Photography.jpg",
+    alt: ""
+  },
+  {
+   url: "DSC_6977_ Joel Gueller Photography.jpg",
+   alt: "" 
+  },
+  {
+    url: "DSC_7020_ Joel Gueller Photography.jpg",
+    alt: ""
+  },
+  {
+    url: "DSC_7029_ Joel Gueller Photography.jpg",
+    alt: ""
+  },
+  {
+    url: "DSC_7064_ Joel Gueller Photography.jpg",
+    alt: ""
+  },
+  {
+    url: "DSC_7094_ Joel Gueller Photography.jpg",
+    alt: ""
+  },
+  {
+    url: "DSC_7100_ Joel Gueller Photography.jpg",
+    alt: ""
+  },
+  {
+    url: "DSC_7109_ Joel Gueller Photography.jpg",
+    alt: ""
+  },
+  {
+    url: "DSC_7110_ Joel Gueller Photography.jpg",
+    alt: ""
+  },
 ];
 
 export default function GalleryPage() {
