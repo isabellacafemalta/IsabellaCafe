@@ -48,7 +48,7 @@ export default function Navigation() {
 
       {/* Main Navigation */}
       <nav className="w-full bg-background border-b border-border sticky top-8 z-40">
-        <div className="container py-4 md:py-6 flex items-center justify-between">
+        <div className="container py-2 md:py-3 flex items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/">
