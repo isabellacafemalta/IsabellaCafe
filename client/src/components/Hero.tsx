@@ -25,12 +25,12 @@ export default function Hero() {
           Gzira, Malta
         </div>
 
-        <h1 className="text-5xl md:text-7xl leading-tight" style={{ fontFamily: '"Playfair Display", serif', fontWeight: '700', letterSpacing: '0.08em', fontSize: 'clamp(3rem, 10vw, 8rem)', textShadow: '0 2px 10px rgba(0,0,0,0.3)' }}>
+        <h1 className="text-5xl md:text-7xl leading-tight" style={{ fontFamily: '"Keira Serif", serif', fontWeight: '700', letterSpacing: '0.08em', fontSize: 'clamp(3rem, 10vw, 8rem)', textShadow: '0 2px 10px rgba(0,0,0,0.3)' }}>
           Isabella Café
         </h1>
 
         <p className="text-lg md:text-xl max-w-2xl leading-relaxed font-light">
-          Your perfect spot for coffee, food & good company.
+          From the first espresso to the last aperitivo — savour every moment.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 md:gap-6 mt-4">
