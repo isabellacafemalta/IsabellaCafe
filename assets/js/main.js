@@ -21,12 +21,38 @@
   // Highlight category nav on scroll (menu page)
   const catLinks = document.querySelectorAll('.cat-nav a');
   if (catLinks.length) {
+    const catNavInner = document.querySelector('.cat-nav__inner');
     const sections = [...catLinks].map(a => document.querySelector(a.getAttribute('href')))
       .filter(Boolean);
+    let userIsScrollingCatNav = false;
+    let userScrollTimer = null;
+    if (catNavInner) {
+      // Don't auto-scroll the cat-nav while the user is manually scrolling it
+      const onUserScroll = () => {
+        userIsScrollingCatNav = true;
+        clearTimeout(userScrollTimer);
+        userScrollTimer = setTimeout(() => { userIsScrollingCatNav = false; }, 800);
+      };
+      catNavInner.addEventListener('touchstart', onUserScroll, { passive: true });
+      catNavInner.addEventListener('wheel', onUserScroll, { passive: true });
+    }
+    const scrollActiveIntoView = activeLink => {
+      if (!catNavInner || !activeLink || userIsScrollingCatNav) return;
+      const navRect = catNavInner.getBoundingClientRect();
+      const linkRect = activeLink.getBoundingClientRect();
+      // Center the active link within the cat-nav viewport
+      const targetLeft = catNavInner.scrollLeft + (linkRect.left - navRect.left)
+        - (navRect.width / 2) + (linkRect.width / 2);
+      catNavInner.scrollTo({ left: targetLeft, behavior: 'smooth' });
+    };
     const setActive = id => {
+      let activeLink = null;
       catLinks.forEach(a => {
-        a.classList.toggle('is-current', a.getAttribute('href') === '#' + id);
+        const match = a.getAttribute('href') === '#' + id;
+        a.classList.toggle('is-current', match);
+        if (match) activeLink = a;
       });
+      scrollActiveIntoView(activeLink);
     };
     const io = new IntersectionObserver(entries => {
       entries.forEach(e => {
