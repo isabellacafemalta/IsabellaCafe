@@ -857,35 +857,6 @@ p { margin: 0 0 1em; max-width: 62ch; }
   gap: 1rem;
   margin-bottom: 0.35rem;
 }
-/* Menu cards without a photo: treat them like an elegant typed menu insert
-   instead of an empty image card — centered serif typography, soft tint, balanced layout */
-.item-card--menu:not(:has(.item-card__media)) {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: var(--paper-soft);
-  padding: 1.6rem 1rem;
-}
-.item-card--menu:not(:has(.item-card__media)) .item-card__row {
-  flex-direction: column;
-  gap: 0.45rem;
-  margin-bottom: 0.6rem;
-}
-.item-card--menu:not(:has(.item-card__media)) .item-card__row h3 {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 1.32rem;
-  font-weight: 400;
-  line-height: 1.2;
-}
-.item-card--menu:not(:has(.item-card__media)) .item-card__price {
-  font-size: 1.02rem;
-}
-.item-card--menu:not(:has(.item-card__media)) .item-card__desc {
-  text-align: center;
-  max-width: 22ch;
-  margin-inline: auto;
-}
 .item-card__row h3 {
   font-size: 1.18rem;
   margin: 0;
