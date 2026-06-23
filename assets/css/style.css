@@ -857,25 +857,34 @@ p { margin: 0 0 1em; max-width: 62ch; }
   gap: 1rem;
   margin-bottom: 0.35rem;
 }
-/* When a menu card has no photo, center the text vertically so it sits balanced inside the stretched card */
+/* Menu cards without a photo: treat them like an elegant typed menu insert
+   instead of an empty image card — centered serif typography, soft tint, balanced layout */
 .item-card--menu:not(:has(.item-card__media)) {
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--paper-soft);
+  padding: 1.6rem 1rem;
 }
 .item-card--menu:not(:has(.item-card__media)) .item-card__row {
-  margin-bottom: 0.5rem;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-bottom: 0.6rem;
 }
-/* Small decorative monogram in place of a photo, keeps visual rhythm */
-.item-card--menu:not(:has(.item-card__media))::before {
-  content: "·  ·  ·";
-  display: block;
-  text-align: center;
-  color: var(--olive);
-  opacity: 0.45;
+.item-card--menu:not(:has(.item-card__media)) .item-card__row h3 {
   font-family: var(--serif);
   font-style: italic;
-  letter-spacing: 0.4em;
-  font-size: 0.95rem;
-  margin-bottom: 0.9rem;
+  font-size: 1.32rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.item-card--menu:not(:has(.item-card__media)) .item-card__price {
+  font-size: 1.02rem;
+}
+.item-card--menu:not(:has(.item-card__media)) .item-card__desc {
+  text-align: center;
+  max-width: 22ch;
+  margin-inline: auto;
 }
 .item-card__row h3 {
   font-size: 1.18rem;
