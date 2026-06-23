@@ -857,6 +857,10 @@ p { margin: 0 0 1em; max-width: 62ch; }
   gap: 1rem;
   margin-bottom: 0.35rem;
 }
+/* When a menu card has no photo, push the text to the bottom so it aligns with neighbouring cards */
+.item-card--menu .item-card__row:first-child {
+  margin-top: auto;
+}
 .item-card__row h3 {
   font-size: 1.18rem;
   margin: 0;
